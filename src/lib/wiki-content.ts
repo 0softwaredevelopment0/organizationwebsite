@@ -27,23 +27,23 @@ export interface WikiSection {
 
 export const WIKI_SECTIONS: WikiSection[] = [
   {
-    name: "UltimateImprovments",
+    name: "UltimateImprovements",
     icon: "fa-solid fa-plug",
-    description: "The UltimateImprovments Minecraft plugin suite: features, commands and systems.",
+    description: "The UltimateImprovements Minecraft plugin suite: features, commands and systems.",
   },
 ];
 
 export const WIKI_ARTICLES: WikiArticle[] = [
   {
     slug: "reports-reputation-statuses",
-    section: "UltimateImprovments",
+    section: "UltimateImprovements",
     title: "Reports, Reputation & Account Standing",
     icon: "fa-solid fa-star-half-stroke",
     updated: "2026-09-24",
     blocks: [
       {
         type: "p",
-        text: "UltimateImprovments ships a connected moderation stack: players file reports, the staff team resolves them with verdicts, and every outcome feeds two independent reputation scales — a numeric score and a Discord-style Account Standing.",
+        text: "UltimateImprovements ships a connected moderation stack: players file reports, the staff team resolves them with verdicts, and every outcome feeds two independent reputation scales — a numeric score and a Discord-style Account Standing.",
       },
       { type: "h2", text: "Report system" },
       {
